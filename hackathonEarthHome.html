@@ -1,0 +1,99 @@
+
+
+<!#################################################################################333>
+
+<!DOCTYPE html>
+<html>
+
+
+<head>
+<link rel="stylesheet" href="hackathonEarthModules.css">
+<title>Hackathon Earth Prevent Water Pollution Home Page</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+
+<!########################################################>
+<body>
+
+<p class="btn">
+    <a href="hackathonEarthMatters.html">Why This Matters</a>
+    <a href="hackathonEarthHelp.html">What Can I Do to Help?</a>
+    <a href="hackathonEarthLinks.html">Other resources</a>
+</p>
+<h1 class="normal">Prevent Water Pollution</h1>
+<p class="left">
+Water Pollution is caused by substances or waste that people dump into large bodies of water. Some examples of pollutants include: industrial waste, sewage, radioactive waste, oil pollution, underground storage leakages, acid rain, and eutrophication.
+
+Water pollution is a big problem because it is harming the planet’s sea life and our own water sources. If the problem goes unsolved, our drinking water will be at risk. Here, we present more information about what water pollution is and how to prevent it, in order to save our planet.
+
+</p>
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 3</div>
+  <img src="http://www.namkhanfoundation.com/wp-content/uploads/2017/02/water-pollution-rio-olympics.jpeg" style="width:100%"/>
+  <div class="text highlight">Great quantaties of water pollution</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+  <img src="https://www.articlecube.com/sites/default/files/field/image/15589/water-pollution.jpg" style="width:100%"/>
+  <div class="text highlight">Water Pollution Close up</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <img src="https://www.commonfloor.com/guide/wp-content/uploads/2014/06/Water-Act-1974.jpg" style="width:100%"/>
+  <div class="text highlight">Factories make a LOT of water pollution.</div>
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div>
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+
+
+
+
+
+</body>
+</html> 
+
+
