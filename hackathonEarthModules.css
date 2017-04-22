@@ -44,6 +44,13 @@ h1.bold {
 	font-size: 40px;
 	font-family: arial;
 	font-style: bold;
+	
+}
+
+p.btn {
+	font-family: arial;
+	text-align: center;
+	font-size: 18px;
 }
 
 a:link, a:visited {
@@ -59,6 +66,16 @@ a:link, a:visited {
 
 a:hover, a:active {
     background-color: skyblue;
+}
+
+.img {
+	padding: 14px 25px;
+	text-align: center; 
+	text-decoration: none;
+	display: inline-block;
+	position: relative;
+	margin: auto;
+	width: 100%;
 }
 
 .right {
